@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(image/Blue\ &\ Yellow\ Minimalist\ Business\ Channel\ Youtube\ Channel\ Art.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 600vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+
+.logo{
+    color: #fa5ed3;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+    
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+    text-align: center;
+
+}
+
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+
+}
+
+.menu ul li{
+    display: inline-block;
+    width: 120px;
+    margin: 15px;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.active, .menu ul li :hover {
+    
+    color: #fff;
+    background: #ec13da;
+    border-radius: 3px;
+
+    
+}
+.menu .fa{
+    margin-right: 8px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.sub-menu-1{
+    display: none;
+
+}
+.menu ul li :hover .sub-menu-1{
+    display: block;
+    background-color: #fa5ed3;
+    color: #fff;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu ul li :hover .sub-menu-1 ul{
+    display: block;
+    background-color: #fa5ed3;
+    margin: 10px;
+
+}
+.menu ul li :hover .sub-menu-1 ul li{
+    width: 120px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+
+
+}
+
+.menu ul li :hover.sub-menu-1 ul li :last-child{
+        border-bottom: none;
+
+}
+
+.menu ul li :hover.sub-menu-1 ul li a:hover{
+    color: #ee34d5;
+}
+
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+
+ul li a:hover{
+    color: #f84ff0;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #f117c2;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #f83cd9;
+    border: 2px solid #ec13da;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #000;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: aliceblue;
+    position: relative;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.content h1{
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    font-size: 55px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 9px;
+    letter-spacing: 2.2px;
+    text-transform: uppercase;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.content .cn{
+    width: 160px;
+    height: 30px;
+    margin-bottom: 10px;
+    background: #f027e6;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.content .cn a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .4s ease-in-out;
+}
+.cn:hover{
+    background-color: #fff;
+}
+.content span{
+    color: rgb(231, 33, 205);
+    font-size: 60px;
+}
+.form{
+    width: 255px;
+    height: 380px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top :-20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width: 200px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #f53cd6;
+    font-size: 22px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 2px;
+
+}
+.form input{
+    width: 235px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #e410c8;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: aliceblue;
+    font-size: 15px;
+    letter-spacing: 1.3px;
+    margin-top: 30px;
+    font-family: sans-serif;
+
+}
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+    font-size: 15px;
+}
+.btn{
+    height: 37px;
+    background: #f31ae1;
+    border: none;
+    margin-top: 30;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: aliceblue;
+
+
+}
+.btn:hover{
+    color: #f746df;
+    background: #f7e3d0;
+    text-align: center ;
+    
+
+}
+.btn a{
+    text-decoration: none;
+    color: rgb(238, 217, 217);
+    font-weight: bold;
+    background: fixed;
+
+
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form.link a{
+    text-decoration: none;
+    color: #ee34d5;
+}
+.h2 a{
+    font-family: Arial;
+    font-size: 16px;
+    color: #ee34d5;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: none;
+    font-weight: bold;
+    background: fixed;
+
+
+
+}
+.low{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 16px;
+    
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+.icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+
+}
+.icons ion-icon:hover{
+    color: #ee34d5;
+    text-decoration: none;
+}
